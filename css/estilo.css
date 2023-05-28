@@ -1,0 +1,128 @@
+/**************************************************/
+/*          mi propio estilo para BootStrap       */
+/*          versión                               */
+/*          autor                                 */ 
+/*          fecha                                 */ 
+/*          comentario: mi proio estilo para      */ 
+/*                          bootstrap             */ 
+/**************************************************/
+
+/* FUCCSIA NOELIA : rgb(227,0,82)*/
+
+.text-violeta{color: rgb(63, 18, 106);} /* DEBER SER BORRADO*/
+.bg-violeta{background-color: rgb(63, 18, 106);} /* DEBER SER BORRADO*/
+.bg-black{background-color: rgb(0, 0, 0);}
+.bg-gris{background-color: rgb(144, 142, 142);}
+.border-violeta{border-color: rgb(63, 18, 106);} /* DEBER SER BORRADO*/
+
+@font-face {
+    font-family: titulos;
+    src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: texto;
+    src: url(../fonts/san_frediano_regular.ttf);
+}
+
+/**** tuneo la barra de navegación ****/
+
+nav {position:sticky !important; 
+    top:0;
+    opacity:0.8;
+    z-index: 99;}
+
+nav  a {color:white !important;}
+
+
+/**** título de sección personalizado ****/
+
+.titulo {
+    font-size:2.5rem;
+    font-family: titulos;
+    font-weight:bold;
+    text-align:center;
+    padding:2rem 0;
+    margin: auto; /*AJUSTAR AQUI LOS ESPACIOS EN NEGRO*/
+    color: rgb(221, 30, 30);
+    border-bottom:3px solid rgb(227,0,82);
+    width:50%;
+}
+
+@media only screen and (width<750px){
+.titulo    {font-size:1.8rem;
+            width:80%;
+    }
+}
+
+/**** estilo de texto personalizado ****/
+.texto {
+    font-size: 1.2rem;
+    font-family: texto;
+    text-align: center;
+    padding: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    color: black;
+}
+
+/****************************/
+.mb-8{margin-bottom: 8rem;}
+.mb-10{margin-bottom: 10rem;}
+
+
+
+/**** tuneo el carousel ****/
+.carousel-control-prev,
+.carousel-control-next {color:black !important;
+                        opacity:0;}
+
+.vh-25 {height:15vh;}
+
+
+
+
+/**** FOOTER ****/
+
+.mapa iframe{
+    width: 80%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 3%;
+    padding-top: 1%;
+    }
+
+#divideFooter{
+    border-right: 2px solid rgb(227,0,82);
+    text-align: center;
+    }
+
+#centrarInfo{
+    text-align: center;
+}
+
+footer .fa{
+    font-size: 1.75rem;
+    color: rgb(255, 255, 255);
+    }
+
+/**** MEDIA QUERIES ****/
+
+@media only screen and (width<=1000px){
+    .titulo{
+        width: 50%;
+    }
+    .texto{
+        font-size: 1rem;
+    }
+
+
+}
+
+@media only screen and (width<750px){
+    .titulo    {font-size:1.8rem;
+                width:80%;
+        }
+    }
