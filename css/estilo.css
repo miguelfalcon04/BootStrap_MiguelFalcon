@@ -9,11 +9,10 @@
 
 /* FUCCSIA NOELIA : rgb(227,0,82)*/
 
-.bg-violeta{background-color: rgb(63, 18, 106);} /* DEBER SER BORRADO*/
+.bg-violeta{background-color: rgb(63, 18, 106);}
 .bg-black{background-color: rgb(0, 0, 0);}
 .bg-gris{background-color: rgb(144, 142, 142);}
 .bg-boton{background-color: rgb(131, 123, 122);}
-.border-violeta{border-color: rgb(63, 18, 106);} /* DEBER SER BORRADO*/
 
 
 @font-face {
