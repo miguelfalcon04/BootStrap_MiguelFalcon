@@ -147,6 +147,7 @@ footer .fa{
     color: rgb(255, 255, 255);
     }
 
+
 /**** MEDIA QUERIES ****/
 
 @media only screen and (width<=1000px){
@@ -161,7 +162,10 @@ footer .fa{
         width: 50%;
     }
 
-
+    .tituloSeccion{
+    font-size: 1rem;
+    }
+    
 }
 
 @media only screen and (width<750px){
